@@ -1,0 +1,32 @@
+{
+  "name": "ifn",
+  "version": "0.0.1",
+  "description": "If and when these files change, do that.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ifn": "bin/ifn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jtrussell/node-ifn.git"
+  },
+  "keywords": [
+    "if",
+    "when",
+    "watch"
+  ],
+  "author": "jtrussell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jtrussell/node-ifn/issues"
+  },
+  "homepage": "https://github.com/jtrussell/node-ifn",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "gaze": "^0.5.1",
+    "shelljs": "^0.4.0"
+  }
+}

@@ -1,0 +1,24 @@
+#!/usr/bin/env node
+
+'use strict';
+
+var program = require('commander');
+
+program
+  .version(require('../package.json').version)
+  .usage('[options] <pattern1> <pattern2> ... patternN <executable>')
+  .option('-d, --debounce <time>', 'Debounce threshold in millisenconds')
+  .parse(process.argv);
+
+if(program.args.length < 2) {
+  program.help();
+}
+
+var executable = program.args.pop()
+  , patters = program.args
+  , opts = {
+    debounce: program.debounce ? parseInt(program.debounce, 10) : null
+  };
+
+require('../index.js')(patters, executable, opts);
+
