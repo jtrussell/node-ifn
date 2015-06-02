@@ -1,6 +1,6 @@
 {
   "name": "ifn",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "If and when these files change, do that.",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,7 @@
   "dependencies": {
     "commander": "^2.8.1",
     "gaze": "^0.5.1",
-    "shelljs": "^0.4.0"
+    "shelljs": "^0.4.0",
+    "lodash.debounce": "^3.1.0"
   }
 }
