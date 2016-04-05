@@ -1,6 +1,6 @@
 {
   "name": "ifn",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "If and when these files change, do that.",
   "main": "index.js",
   "scripts": {
