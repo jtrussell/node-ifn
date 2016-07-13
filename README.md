@@ -16,7 +16,7 @@ npm install -g ifn
 ## Usage
 
 ```
-ifn [options] <pattern1> <pattern2> ... patternN <executable>
+ifn [options] <pattern1> <pattern2> ... pattern <executable>
 ```
 
 Some examples:
